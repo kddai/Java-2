@@ -24,18 +24,20 @@
 #### Course类
 1.首先将课程的各个类型定义创建出来。   
 ```
-public class Course {   
-	  public String CourseName;   
-	  public String CourseID;    
-	  public String Location;   
-	  public String Time;   
-	  public String CCourse; 
-    public String setCourseName(String CourseName) {   
-		  this.CourseName = CourseName;   
-		  return CourseName;   
-	  }   
+public class Course {      
+	public String CourseName;    
+	public String CourseID;     
+	public String Location;     
+	public String Time;      
+	public String CCourse;     
+	public String getCourseName() {     
+	return CourseName;     
+	}    
+	public void setCourseName(String CourseName) {    
+ 	this.CourseName = CourseName;   
+}    
 ```
-2.将Select继承为Course的子类。   
+2.Select类继承父类Course类。      
 ```
 class Select extends Course{}   
 ```
@@ -83,21 +85,22 @@ Teacher teacher1 = new Teacher();
  ```
 ## 实验结果
  ```
- 教师信息   
-教师姓名:陈征教师编号:180260201性别:Male课程:数学   
-学生信息   
-课程   
-课程号:001   
-课程:数学地点:教103时间:周一8.00-10.00教师:陈征   
-____________________________________________    
-选择课程   
-序号:001   
-学生姓名:吴迪一性别:Male班级:18网2选择课程:高等数学时间:周一8.00-10.00讲课教师:陈征   
-____________________________________________________________________________   
-退课信息   
-序号:002   
-学生姓名:李世鹏性别:Female班级:18网2时间:周二13.00-15.00退课名称:计算机组成原理   
-_________________________________________________________________________    
+教师信息         
+教师姓名:陈征教师编号:180260201性别:Male课程:数学        
+______________________________________________________________________________           
+学生信息            
+课程        
+课程号:001      
+课程:数学地点:教103时间:周一8.00-10.00教师:陈征      
+______________________________________________________________________________          
+选择课程           
+序号:001         
+学生姓名:吴迪一性别:Male班级:18网2选择课程:高等数学时间:周一8.00-10.00讲课教师:陈征       
+______________________________________________________________________________         
+退课信息      
+序号:002      
+学生姓名:李世鹏性别:Female班级:18网2时间:周二13.00-15.00退课名称:计算机组成原理      
+______________________________________________________________________________           
 ```
 ## 实验感想
 通过学生管理系统了解了子类继承父类的用法。一开始拿到实验的时候不知道如何下手，查资料翻书问同学慢慢摸索了解用java语言编写学生管理系统。知道做学生管理系统首先先干些什么。从一个点做好开始逐渐
