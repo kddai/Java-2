@@ -28,10 +28,10 @@ class Teacher extends Person{
 	}
 	public void title() {
 		System.out.println("教师信息");
-		}
+	}
 	public void show() {
 		System.out.println("教师姓名:"+Name+"教师编号:"+ID+"性别:"+Sex+"课程:"+Course);
-		
+		System.out.println("______________________________________________________________");
 	}
 }
 	

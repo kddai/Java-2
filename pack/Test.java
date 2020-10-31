@@ -27,7 +27,7 @@ public class Test {
 				"地点:"+course1.Location+
 				"时间:"+course1.Time+
 				"教师:"+teacher1.Name);
-		System.out.println("______________________________________");
+		System.out.println("______________________________________________________________");
 		Select sel = new Select();
 		sel.setCCourse("高等数学");
 		sel.setCourseID("001");
@@ -54,7 +54,7 @@ public class Test {
 						   "班级:"+dropstu1.Dropclass+
 						   "时间:"+dropstu1.Droptime+
 						   "退课名称:"+dropstu1.Dropcourse);
-		System.out.println("____________________________________________________________");
+		System.out.println("______________________________________________________________");
 	}
 
 }

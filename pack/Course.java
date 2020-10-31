@@ -6,25 +6,35 @@ public class Course {
 	  public String Location;
 	  public String Time;
 	  public String CCourse;
-	  public String setCourseName(String CourseName) {
-		  this.CourseName = CourseName;
+	  public String getCourseName() {
 		  return CourseName;
 	  }
-	  public String setCourseID(String CourseID) {
-		  this.CourseID = CourseID;
+	  public void setCourseName(String CourseName) {
+		  this.CourseName = CourseName;
+	  }
+	  public String getCourseID() {
 		  return CourseID;
 	  }
-	  public String setLocation(String Location) {
+	  public void setCourseID(String CourseID) {
+		  this.CourseID = CourseID;
+	  }
+	  public String getLocation() {
+		  return  Location;
+	  }
+	  public void setLocation(String Location) {
 		  this.Location = Location;
-		  return Location;
 	  }	
-	  public String setTime(String Time) {
-		  this.Time = Time;
+	  public  String getTime() {
 		  return Time;
 	  }
-	  public String setCCourse(String CCourse) {
+	  public void setTime(String Time) {
+		  this.Time = Time;
+	  }
+	  public  String getCCourse() {
+		  return  CCourse;
+	  }
+	  public void setCCourse(String CCourse) {
 		  this.Time = CCourse;
-		  return CCourse;
 	  }
 	  
 	public void title() {
@@ -33,21 +43,29 @@ public class Course {
 }
 class Select extends Course{
 	Select(){}
-	public String setCourseName(String CourseName) {
-		this.CourseName = CourseName;
+	public String getCourseName() {
 		return CourseName;
-		}
-	public String setCourseID(String CourseID) {
-		this.CourseID = CourseID;
-		return CourseID;
-		}
-	public String setCLocation(String Location) {
-		this.Location = Location;
-		return Location;
 	}
-	public String setCTime(String Time) {
-		this.Time = Time;
+	public void setCourseName(String CourseName) {
+		this.CourseName = CourseName;
+		}
+	public String getCourseID() {
+		return  CourseID;
+	}
+	public void setCourseID(String CourseID) {
+		this.CourseID = CourseID;
+		}
+	public  String  getLocation() {
+		return   Location;
+	}
+	public void setCLocation(String Location) {
+		this.Location = Location;
+	}
+	public String getTime() {
 		return Time;
+	}
+	public void setTime(String Time) {
+		this.Time = Time;
 	}
 	public void title() {
 		System.out.println("Ñ¡Ôñ¿Î³Ì");
