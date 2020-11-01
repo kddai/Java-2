@@ -78,29 +78,41 @@ class Drop{
 	String Dropcourse;
 	String Dropcourseid;
 	String Droptime;
-	public String setDropname(String Dropname) {
+	public String getDropname() {
+		return Dropname;
+		}
+	public void setDropname(String Dropname) {
 	this.Dropname = Dropname;
-	return Dropname;
 	}
-	public String setDropclass(String Dropclass) {
-		this.Dropclass = Dropclass;
+	public String getDropclass() {
 		return Dropclass;
 		}
-	public String setDropcourse(String Dropcourse) {
-		this.Dropcourse = Dropcourse;
+	public void setDropclass(String Dropclass) {
+		this.Dropclass = Dropclass;
+		}
+	public String getDropcourse() {
 		return Dropcourse;
 		}
-	public String setDropcourseid(String Dropcourseid) {
-		this.Dropcourseid = Dropcourseid;
+	public void setDropcourse(String Dropcourse) {
+		this.Dropcourse = Dropcourse;
+		}
+	public String getDropcourseid() {
 		return Dropcourseid;
 		}
-	public String setDropsex(String Dropsex) {
+	public void setDropcourseid(String Dropcourseid) {
+		this.Dropcourseid = Dropcourseid;
+		}
+	public String getDropsex() {
+		return Dropsex;
+		}
+	public void setDropsex(String Dropsex) {
 			this.Dropsex = Dropsex;
-			return Dropsex;
 			}
-	public String setDroptime(String Droptime) {
-		this.Droptime = Droptime;
+	public String getDroptime() {
 		return Droptime;
+		}
+	public void setDroptime(String Droptime) {
+		this.Droptime = Droptime;
 		}
 	public void title(){
 		System.out.println("ÍË¿ÎÐÅÏ¢");

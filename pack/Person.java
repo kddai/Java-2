@@ -14,7 +14,7 @@ class Teacher extends Person{
 		this.Name = Name;
 		return Name;
 	}
-	public String setID(String ID	) {
+	public String setID(String ID) {
 		this.ID = ID;
 		return ID;
 	}	
@@ -27,6 +27,8 @@ class Teacher extends Person{
 		return Course;
 	}
 	public void title() {
+		System.out.println("学生管理系统");
+		System.out.println("______________________________________________________________");
 		System.out.println("教师信息");
 	}
 	public void show() {
