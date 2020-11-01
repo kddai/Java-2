@@ -82,8 +82,8 @@ class Drop{
 		return Dropname;
 		}
 	public void setDropname(String Dropname) {
-	this.Dropname = Dropname;
-	}
+		this.Dropname = Dropname;
+		}
 	public String getDropclass() {
 		return Dropclass;
 		}

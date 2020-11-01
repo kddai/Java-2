@@ -3,14 +3,14 @@ package pack;
 public class Test {
 
 	public static void main(String[] args) {
-		Teacher teacher1 = new Teacher();
+		Teach teacher1 = new Teach();
 		teacher1.title();
 		teacher1.setName("陈征");
 		teacher1.setID("180260201");
 		teacher1.setSex("Male");
-		teacher1.setCorse("数学");
+		teacher1.setCourse("数学");
 		teacher1.show();
-		Student stu1 = new Student();
+		Stud stu1 = new Stud();
 		stu1.title();
 		stu1.setName("吴迪一");
 		stu1.setID("180260226");
