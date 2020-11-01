@@ -56,11 +56,31 @@ class Drop{
 	}   
   ```   
   #### Person类
-  1.Student类和Teacher类继承父类Person类。   
+  1.super成员变量。      
  ```
- class Student extends Person{}   
- class Teacher extends Person{}   
+ public Person(String name, String iD, String sex, String course, String class1) {   
+		this.Name = name;   
+		ID = iD;   
+		Sex = sex;   
+		Course = course;   
+		Class = class1;   
+	}     
  ``` 
+ #### Stud类  
+ 1.子类Stud类继承父类Person类。   
+ ```
+ class Stud extends Person{}   
+ ```
+ 2.使用super调用父类构造方法   
+ ```
+ public Stud(String name,String iD,String sex,String course,String class1) {
+		super(name,iD,sex,course,class1);
+	}
+```
+#### Teach类   
+```
+同Stud类   
+``` 
  #### Test类   
  1.创建Teacher1,stu1,course1,sel1,drop1声明教师学生信息以及学生选课退课信息。   
 ```
